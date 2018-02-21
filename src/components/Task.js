@@ -31,7 +31,6 @@ const Task = props => {
       <div className="task-body">
         {props.task.description}
       </div>
-
     </div>
   );
 

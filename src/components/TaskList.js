@@ -16,10 +16,11 @@ const TaskList = props => {
           <Task
             key={task.id}
             task={task}
-            onStatusChange={props.onStatusChange} 
+            onStatusChange={props.onStatusChange}
           />
-        ))
-      }
+        )
+      )
+    }
     </div>
   )
 }

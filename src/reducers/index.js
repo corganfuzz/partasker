@@ -16,7 +16,7 @@ const mockTasks =
   },
 ];
 
-export default function tasks (state = {task: mockTasks}, action) {
+export default function tasks (state = {tasks: mockTasks}, action) {
 
   if (action.type === 'CREATE_TASK') {
     return {
